@@ -4,7 +4,7 @@ from PIL import Image, ImageOps  # Install pillow instead of PIL
 import numpy as np
 
 st.title("Cat or Dog prediction")
-st.subheader("predcit input image is cat or dog")
+st.subheader("Predict whether the input image contains a cat or dog")
 uploaded_file = st.file_uploader(label='upload an image',type=['png','jpg','jpeg'],)
 if uploaded_file is not None:
     st.image(uploaded_file,width=200)
